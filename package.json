@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "this is the website for hackCWRU",
   "main": "index.js",
-  "homepage": "http://justinphan3110.github.io/test-web",
+  "homepage": "http://justinphan3110.github.io/test-web/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
