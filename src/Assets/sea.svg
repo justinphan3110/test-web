@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="94px" viewBox="0 0 1440 94" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>Oval 4 + Oval 5 + Oval 5 + Oval 3 + Oval 3 Copy + Oval 4 + Oval 4 Copy + Oval 4 Copy 2 Mask</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1440" height="111"></rect>
+        <rect id="path-3" x="0" y="0" width="322" height="179"></rect>
+        <rect id="path-5" x="0" y="0" width="291" height="111"></rect>
+        <rect id="path-7" x="0" y="0" width="52" height="111"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy-2" transform="translate(0.000000, -930.000000)">
+            <g id="Oval-4-+-Oval-5-+-Oval-5-+-Oval-3-+-Oval-3-Copy-+-Oval-4-+-Oval-4-Copy-+-Oval-4-Copy-2-Mask" transform="translate(0.000000, 913.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask"></g>
+                <ellipse id="Oval-4" fill="#3C9BD4" mask="url(#mask-2)" cx="1558" cy="255.5" rx="700" ry="222.5"></ellipse>
+                <ellipse id="Oval-5" fill="#8DD9FF" mask="url(#mask-2)" cx="824.5" cy="413" rx="808.5" ry="396"></ellipse>
+                <ellipse id="Oval-5" fill="#8DD9FF" mask="url(#mask-2)" cx="49.5" cy="441" rx="808.5" ry="396"></ellipse>
+                <ellipse id="Oval-3" fill="#1ABAFE" mask="url(#mask-2)" cx="1100" cy="304" rx="997" ry="259"></ellipse>
+                <g id="Oval-3-Copy" mask="url(#mask-2)">
+                    <g transform="translate(939.000000, 17.000000)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <g id="Mask" stroke="none" fill="none"></g>
+                        <ellipse id="Oval-3-Copy" stroke="#C6EEFF" stroke-width="6" fill="none" mask="url(#mask-4)" cx="201" cy="300" rx="997" ry="259"></ellipse>
+                    </g>
+                </g>
+                <ellipse id="Oval-4" fill="#3C9BD4" mask="url(#mask-2)" cx="357" cy="267.5" rx="700" ry="222.5"></ellipse>
+                <g id="Oval-4-Copy" mask="url(#mask-2)">
+                    <g transform="translate(210.000000, 33.000000)">
+                        <mask id="mask-6" fill="white">
+                            <use xlink:href="#path-5"></use>
+                        </mask>
+                        <g id="Mask" stroke="none" fill="none"></g>
+                        <ellipse id="Oval-4-Copy" stroke="#C6EEFF" stroke-width="7" fill="none" mask="url(#mask-6)" cx="147" cy="247.5" rx="700" ry="222.5"></ellipse>
+                    </g>
+                </g>
+                <g id="Oval-4-Copy-2" mask="url(#mask-2)">
+                    <g transform="translate(524.000000, 33.000000)">
+                        <mask id="mask-8" fill="white">
+                            <use xlink:href="#path-7"></use>
+                        </mask>
+                        <g id="Mask" stroke="none" fill="none"></g>
+                        <ellipse id="Oval-4-Copy" stroke="#C6EEFF" stroke-width="7" fill="none" mask="url(#mask-8)" cx="-167" cy="247.5" rx="700" ry="222.5"></ellipse>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

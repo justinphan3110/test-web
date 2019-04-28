@@ -1,0 +1,826 @@
+/**
+
+**/
+@font-face {
+  font-family: Hiragino;
+  src: url("./Assets/Nexa.otf") format("opentype");
+}
+
+* {
+  outline-width: 0;
+}
+
+.introduction {
+  overflow: hidden;
+  background-color: rgb(202, 104, 129);
+  background-size: cover;
+}
+
+/**
+
+This is for mah boi our cutie sponsor
+
+**/
+
+.myLogo {
+  position: relative;  
+  float: right;
+  width: 450px;
+  top:-370px;
+}
+
+.imageLogo img {
+  position: absolute;
+  right:0px;
+  width:100%;
+  z-index: 4;
+}
+
+.cloud1 {
+  position: absolute;
+  left: 10%;
+  width: 30%;
+  min-width: 120px;
+  top: 460px;
+  z-index: 1;
+}
+
+.cloud2 {
+  position: absolute;
+  right: 20%;
+  width: 40%;
+  min-width: 300px;
+  top: 300px;
+  z-index: 1;
+}
+
+.cloud1 img, .cloud2 img {
+  width: 100%;
+}
+
+/**
+These are the content related css files
+**/
+
+.theText {
+  position: relative;
+  padding-left:150px;
+  top: 30%;
+  color: #B26483;
+  z-index: 2;
+}
+
+.theText h1 {
+  font-family: Hiragino;
+  color: #B26483;
+  font-size: 80px;
+}
+
+.theText img {
+  height: 90px;
+}
+
+.theText h3 {
+  font-family: Hiragino;
+  color:#fff;
+  font-size: 30px;
+}
+
+.theText h4 {
+  font-family: Hiragino;
+  color:#fff;
+  font-size:20px;
+}
+.mainContent {
+  height: 530px;
+  position: relative;
+  font-family: Hiragino;
+}
+
+button {
+  width: inherit;
+  background: inherit;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #000000;
+  color: inherit;
+  cursor: pointer;
+  white-space: nowrap;
+  font-weight: 600;
+  font-size: 14px;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: auto;
+}
+
+.Button {
+  text-decoration: none;
+}
+.buttonText {
+  font-size: 20px;
+  color: #B26483;
+}
+.lhd {
+  background-color: #FFEFD8;
+}
+
+.lhd button {
+  border-radius: 9px !important;
+  border: none;
+  box-shadow: 10px 10px 0px 1px #3B0596;
+}
+
+.buttonTextLHD {
+  font-size: 20px;
+  color: #B26483;
+}
+
+.red button {
+  border-color: #B26483;
+  border-radius: 12px;
+}
+
+.green button {
+  border-color: #B26483;
+  border-radius: 12px;
+}
+
+.buttonGroup {
+  padding-top: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+  .theText img {
+    height: 40px;
+  }
+}
+
+/** 
+These are the sea related css files
+**/
+.sea {
+  position: relative;
+  width: 100%;
+  padding-bottom:150px;
+  overflow: hidden;
+}
+
+.sea.sea_sec_1_container {
+  padding-bottom: 450px;
+}
+
+.sea_sec_1 {
+  position: absolute;
+  width: 120%;
+  min-width: 1000px;
+  left: -10%;
+}
+
+.sea_sec_2 {
+  position: absolute;
+  width: 110%;
+  min-width: 1000px;
+  left: -10%;
+}
+
+.sea_sec_3 {
+  position: absolute;
+  width: 110%;
+  min-width: 1000px;
+  left: -10%;
+}
+
+.sea_sec_4 {
+  position: absolute;
+  width: 110%;
+  min-width: 1000px;
+  left: -10%;
+}
+
+.top_sea_sec_1 {
+  position: absolute;
+  z-index: 5;
+  animation: wave-move-lr 6s infinite cubic-bezier(0.42,0,0.58,1);
+}
+
+.top_sea_sec_2 {
+  position: absolute;
+  z-index: 2;
+  animation: wave-move-lr 6s infinite cubic-bezier(0.42,0,0.58,1);
+}
+
+.top_sea_sec_3 {
+  position: absolute;
+  z-index: 2;
+  animation: wave-move-lr 6s infinite cubic-bezier(0.42,0,0.58,1);
+}
+
+.top_sea_sec_4 {
+  position: absolute;
+  z-index: 2;
+  animation: wave-move-lr 6s infinite cubic-bezier(0.42,0,0.58,1);
+}
+
+.mid_sea_sec_1 {
+  position: absolute;
+  z-index: 3;
+  animation: wave-move-lr 5s infinite cubic-bezier(0.42,0,0.58,1);
+  margin-top:10px;
+}
+
+.mid_sea_sec_2 {
+  position: absolute;
+  z-index: 3;
+  animation: wave-move-lr 5s infinite cubic-bezier(0.42,0,0.58,1);
+  margin-top:10px;
+}
+
+.mid_sea_sec_4 {
+  position: absolute;
+  z-index: 3;
+  animation: wave-move-lr 5s infinite cubic-bezier(0.42,0,0.58,1);
+  margin-top:10px;
+}
+
+.bot_sea_sec_1 {
+  position: absolute;
+  animation: wave-move-lr 7s infinite cubic-bezier(0.42,0,0.58,1);
+  z-index: 5;
+  margin-top: 60px;
+}
+
+.bot_sea_sec_2 {
+  position: absolute;
+  animation: wave-move-lr 7s infinite cubic-bezier(0.42,0,0.58,1);
+  z-index: 5;
+  margin-top: 90px;
+}
+
+.bot_sea_sec_3 {
+  position: absolute;
+  animation: wave-move-lr 7s infinite cubic-bezier(0.42,0,0.58,1);
+  z-index: 5;
+  margin-top: 90px;
+}
+
+.bot_sea_sec_4 {
+  position: absolute;
+  animation: wave-move-lr 7s infinite cubic-bezier(0.42,0,0.58,1);
+  z-index: 5;
+  margin-top: 90px;
+}
+
+@keyframes wave-move-lr {
+  0% {
+    left: -10%;
+  }
+  50% {
+    left: -8%;
+  }
+  100% {
+    left:-10%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .theText {
+    z-index: 1000;
+    top:25%;
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  .myLogo {
+    width: 250px;
+    top:-185px;
+  }
+  .theText h1 {
+    font-size: 40px;
+  }
+
+  .theText h3, .theText h4 {
+    font-size: 16px;
+  }
+}
+
+/**
+Section 2
+**/
+
+.section1 {
+  position: relative;
+  width: 100%;
+  background-color: #98D5FE;
+  z-index: 1000;
+  margin-top:-300px;
+}
+
+.section1 .eachSection {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.section2 {
+  position: relative;
+  width: 100%;
+  background-color: #6C9DD6;
+  z-index: 1000;
+  margin-top:-30px;
+}
+
+.section1 a {
+  color: rgb(46, 69, 110);
+  text-decoration: none;
+  border-bottom: rgb(46, 69, 110) 1px dashed;
+}
+
+.eachSection {
+  padding-left: 200px;
+  padding-right:200px;
+  padding-top:  75px;
+  padding-bottom: 150px;
+}
+
+
+.eachSection p {
+  font-size:20px;
+}
+
+.informationText {
+  color: rgb(46, 69, 110) !important;
+}
+
+@media only screen and (max-width: 1000px) {
+  .eachSection {
+    padding-left: 100px;
+    padding-right:100px;
+  }
+}
+
+.clownFish {
+  position: absolute;
+  top:35px;
+  right:125px;
+  height: 105px;
+}
+
+.mantaRay {
+  position: absolute;
+  top:325px;
+  left:30px;
+  height: 250px;
+}
+
+.mantaRay img {
+  height:100%;
+}
+
+.clownFish img {
+  height: 100%;
+}
+
+.title {
+  font-family: Hiragino;
+  color:#000000;
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .eachSection {
+    padding-left: 25px;
+    padding-right:25px;
+    text-align: center;
+  }
+  .clownFish {
+    display: none;
+  }
+  .mantaRay {
+    display: none;
+  }
+}
+
+/**
+Section 3
+**/
+.waveFish {
+  position: absolute;
+  top:70%;
+  right:80px;
+  height: 105px;
+  z-index: -5;
+}
+
+.waveFish img {
+  height:100%;
+}
+
+.purpleFish {
+  position: absolute;
+  top:65%;
+  left:40px;
+  height: 100px;
+  z-index: -5;
+}
+
+.purpleFish img {
+  height:100%;
+}
+
+.greenFish {
+  position: absolute;
+  top:330px;
+  left:125px;
+  height: 150px;
+  z-index: -5;
+}
+
+.greenFish img {
+  height:100%;
+}
+
+.backgroundFish {
+  position: absolute;
+  top:70px;
+  right:225px;
+  height: 105px;
+  z-index: -5;
+}
+
+.backgroundFish img {
+  height:100%;
+}
+
+.bubbles {
+  position: absolute;
+  top:350px;
+  right:6%;
+  height: 145px;
+  z-index: -5;
+}
+
+.bubbles img {
+  height:100%;
+}
+
+.section3 {
+  position: relative;
+  width: 100%;
+  background-color: #4367B1;
+  z-index: 1000;
+}
+
+.FAQBubble {
+  background: #E0E8E9;
+  border: solid 1px #297284;
+  border-radius: 7px;
+  text-align: left;
+  padding: 10px;
+  cursor: hand;
+  width: 250px;
+  font-size: large;
+  margin-top:25px;
+}
+
+.FAQBubble h3 {
+  color: #B26483;
+  margin: 4px 0;
+}
+
+.FAQBubble p {
+  font-size: 16px;
+  margin: 0;
+  padding: 4px 0;
+}
+
+.bubbleContainer {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-between;
+}
+
+.bubbleContainer .FAQBubble {
+  float: left;
+}
+
+@media only screen and (max-width: 600px) {
+  .FAQBubble {
+    width: 75%;
+  }
+
+  .greenFish {
+    display: none;
+  }
+
+  .purpleFish {
+    display: none;
+  }
+
+}
+
+/**
+Section 4
+**/
+
+.section4 {
+  position: relative;
+  width: 100%;
+  background-color: #3855A4;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.darkTitle {
+  font-family: Hiragino;
+  color:#E0E8E9;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+.backFish2 {
+  position: absolute;
+  top:70px;
+  right:225px;
+  height: 75px;
+  z-index: -5;
+}
+
+.backFish2 img {
+  height:100%;
+}
+
+.backFish3 {
+  position: absolute;
+  top:350px;
+  left:100px;
+  height: 75px;
+  z-index: -5;
+}
+
+.backFish3 img {
+  height:100%;
+}
+
+.octopi {
+  position: absolute;
+  top:400px;
+  right:50px;
+  height: 225px;
+  z-index: -5;
+}
+
+.octopi img {
+  height: 100%;
+}
+
+.fishies {
+  position: absolute;
+  top:50px;
+  left:175px;
+  height: 75px;
+  z-index: -5;
+}
+
+.fishies img {
+  height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .octopi {
+    display: none;
+  }
+
+  .fishies {
+    display: none;
+  }
+
+  .waveFish {
+    display: none;
+  }
+
+  .rightDay {
+    border-left: 0px solid #E0E8E9;
+  }
+  
+  .leftDay {
+    border-right: 0px solid #E0E8E9;
+  }
+  .scheduleContainer {
+    flex-direction: column;
+  }
+  .dayContainer {
+    flex-direction: column;
+    width: 100%;
+    text-align: left;
+  }
+
+  .dayText {
+    text-align: right;
+  }
+  .dayContainer h5 {
+    text-align: left;
+    color:#E0E8E9;
+    font-size: 15px;
+    margin-left: 0px;
+    margin-right:0px;
+    margin-top:0px;
+    margin-bottom: 0px;
+  }
+
+}
+
+/**
+Track Area
+**/
+
+.track-list {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 100px;
+}
+
+.track-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 48px 8px;
+}
+
+.track-item img {
+  width: 25%;
+}
+
+.track-item .description {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.track-item .description h4 {
+  color: #fff;
+  font-size: 32px;
+  line-height: 1.5;
+  margin: 8px;
+}
+
+.track-item .description p {
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+  margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .track-item {
+    flex-direction: column;
+  }
+  
+  .track-item .description {
+    width: 95%;
+  }
+}
+
+
+/**
+Sponsorship Area
+**/
+
+.section5 {
+  position: relative;
+  width: 100%;
+  background-color: #2D267E;
+  z-index: 1000;
+}
+
+.sponsorsDiv {
+  background-color: rgba(256, 256, 256, .9);
+  padding: 4px;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.sponsorLogo {
+  margin: 8px 16px;
+  width: 100%;
+}
+
+.bottomBed {
+  position: relative;
+  bottom:0px;
+  left:0px;
+  width: 100%;
+  z-index: -5;
+}
+
+.bottomBed img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 720px) {
+  .sponsorLogo {
+    margin: 8px;
+  }
+
+  .sponsorLogo img {
+    max-width: 90%;
+  }
+
+  .prizes-container p {
+    font-size: 16px !important;
+    max-width: 27% !important;
+  }
+}
+
+.prizes-container {
+  width: 90%;
+  max-width: 600px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.prizes-container.oculus p {
+  text-align: right;
+}
+
+.prizes-container.oculus {
+  flex-direction: row-reverse;
+  margin-bottom: 80px;
+}
+
+.prizes-container img {
+  width: 72%;
+}
+
+.prizes-container p {
+  color: #fff;
+  font-size: 20px;
+  max-width: 25%;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+
+/**
+Button Group
+**/
+
+button {
+  width: inherit;
+  background: inherit;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #000000;
+  color: inherit;
+  cursor: pointer;
+  white-space: nowrap;
+  font-weight: 600;
+  font-size: 14px;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: auto;
+}
+
+.Button {
+  text-decoration: none;
+}
+.buttonText {
+  font-size: 20px;
+  color: #B26483;
+}
+
+.lhd {
+  background-color: #B26483;
+}
+
+.lhd button {
+  border-radius: 12px;
+  border-color: #B26483;
+}
+
+.buttonTextLHD {
+  font-size: 20px;
+  color: #fff;
+  font-family: Hiragino;
+}
+
+.red button {
+  border-color: #B26483;
+  border-radius: 12px;
+}
+
+h1 {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
